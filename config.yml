@@ -1,0 +1,13 @@
+token: '5429026263:AAGl7LfS7KyhsZMcInV_hJf2zVCxp0V6WJo'
+
+commands:
+
+  - name: first_start
+    type: interactive_command
+    command_handler: True
+    cmd: start
+    text: "Привет, {msg.from_user.username}, я бот для игры в бункер. Давай же начнём!🥳"
+    buttons: [ 'Создать игровую комнату', 'Присоединиться к комнате']
+    buttons_count: 2
+    prev_screen: start
+
